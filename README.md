@@ -28,5 +28,5 @@ Before using this software, ensure you have the following installed:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo-name/your-project-name.git
-   cd your-project-name
+   git clone https://github.com/user81208589/img2bin.git
+   cd img2bin```
