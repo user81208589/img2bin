@@ -22,11 +22,5 @@ Before using this software, ensure you have the following installed:
 - **OpenCV** (4.x recommended)
 - A C++17-compatible compiler (e.g., GCC, Clang, MSVC)
 
----
 
-## Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/user81208589/img2bin.git
-   cd img2bin
