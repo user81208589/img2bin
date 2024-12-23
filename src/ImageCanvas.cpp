@@ -3,7 +3,7 @@
 
 ImageCanvas::ImageCanvas(QWidget *parent)
     : QWidget(parent), cellSize(10), blockSize(15), constant(10), opacity(0.5) {
-    this->setWindowTitle("img2bin (960x220 version)");
+    this->setWindowTitle("image to binary (960x220 version)");
     grid.resize(22, std::vector<int>(96, 0));
 
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
