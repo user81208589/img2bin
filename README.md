@@ -35,7 +35,7 @@
        -lopencv_highgui455 \
        -lopencv_imgcodecs455
    ```
-4. Build ở **Release mode** để tránh lỗi DLL Debug.
+4. Build ở **Release mode** hoặc **Debug mode**.
 5. Sau khi build:
    ```
    windeployqt release\img2bin.exe
