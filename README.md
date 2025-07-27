@@ -1,4 +1,4 @@
-# Grid Image Editor (Qt + OpenCV)
+# Image to Binary (Qt + OpenCV)
 
 ## Giới thiệu
 Ứng dụng này cho phép:
