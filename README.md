@@ -19,22 +19,22 @@
 2. Tạo project mới hoặc mở file `.pro`.
 3. Đảm bảo `.pro` có cấu hình:
    ```pro
-  QT += widgets
-  CONFIG += c++17 windows
-  CONFIG -= console
-  TEMPLATE = app
+    QT += widgets
+    CONFIG += c++17 windows
+    CONFIG -= console
+    TEMPLATE = app
 
-  SOURCES += main.cpp
-  RESOURCES += img2bin.qrc
+    SOURCES += main.cpp
+    RESOURCES += img2bin.qrc
 
-  RC_ICONS = app.ico
-
-  INCLUDEPATH += C:/opencv-install/include
-  LIBS += -LC:/opencv-install/x64/mingw/lib \
-      -lopencv_core455 \
-      -lopencv_imgproc455 \
-      -lopencv_highgui455 \
-      -lopencv_imgcodecs455
+    RC_ICONS = app.ico
+  
+    INCLUDEPATH += C:/opencv-install/include
+    LIBS += -LC:/opencv-install/x64/mingw/lib \
+        -lopencv_core455 \
+        -lopencv_imgproc455 \
+        -lopencv_highgui455 \
+        -lopencv_imgcodecs455
 
    ```
 4. Build ở **Release mode** hoặc **Debug mode**.
