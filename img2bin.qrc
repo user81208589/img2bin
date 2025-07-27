@@ -1,0 +1,6 @@
+<RCC>
+    <qresource>
+        <file>custom_font.ttf</file>
+        <file>app.ico</file>
+    </qresource>
+</RCC>
