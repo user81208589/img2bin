@@ -3,19 +3,16 @@
 ## Giới thiệu
 Ứng dụng này cho phép:
 - Vẽ và chỉnh sửa grid nhị phân.
-- Tải ảnh, xử lý adaptive threshold để biến ảnh thành grid.
 - Xuất dữ liệu grid ra dạng hex.
 - Hỗ trợ hai kích thước canvas:
   - **96×22**
   - **96×31**
 - Hiển thị grid overlay.
-- Ẩn console khi chạy trên Windows.
-- Ảnh được canh giữa khi cửa sổ được phóng to.
 
 ## Yêu cầu
 - **Qt 6.x (MinGW 64-bit)**
 - **OpenCV build bằng MinGW 64-bit** (cùng version compiler với Qt)
-- Windows 64-bit
+
 
 ## Cách build
 1. Mở Qt Creator.
@@ -41,9 +38,8 @@
 4. Build ở **Release mode** để tránh lỗi DLL Debug.
 5. Sau khi build:
    ```
-   windeployqt release\grid_editor.exe
+   windeployqt release\img2bin.exe
    ```
-   Copy thêm các DLL OpenCV (`opencv_core455.dll`, v.v.) vào cùng thư mục.
 
 ## Chạy chương trình
 - Double-click file `.exe` trong thư mục `release`.
